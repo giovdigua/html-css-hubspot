@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    color: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#headerTop{
+    background-color: #F5F8FA;
+    height: 100px;
+}
+
+#headerTopLeft{
+    background-color: orange;
+    height: 100px;
+    float: left;
+    width: 50%;
+}
+
+#headerTopRight{
+    background-color: black;
+    height: 100px;
+    float: right;
+    width: 50%;
+}
+
+
+
+#headerBottom{
+    background-color: yellow;
+    height: 100px;
+}
+
+#headerBottomLeft{
+    width: 25%;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+
+#headerBottomRight{
+    width: 75%;
+    height: 100px;
+    background-color: #bf00ff;
+    float: right;
+}
+
+#jumbo {
+    height: 700px;
+    background-color: pink;
+}
+#jumboContent{
+    background-color: red;
+    width: 40%;
+    height: 400px;
+}
+#jumboText{
+ /* da fare */
+}
+#jumboButtonContainer{
+     /* da fare */
+}
