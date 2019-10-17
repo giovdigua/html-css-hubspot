@@ -11,7 +11,8 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: lightgrey;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -24,20 +25,23 @@ body{
 }
 
 #headerTop{
+    position: fixed;
+    top:0;
+    width: 100%;
     background-color: #F5F8FA;
-    height: 100px;
+    height: 75px;
 }
 
 #headerTopLeft{
-    background-color: orange;
-    height: 100px;
+    background-color: rgba(30, 0, 0, 0.2);
+    height: 75px;
     float: left;
     width: 50%;
 }
 
 #headerTopRight{
-    background-color: black;
-    height: 100px;
+    background-color: silver;
+    height: 75px;
     float: right;
     width: 50%;
 }
@@ -45,21 +49,21 @@ body{
 
 
 #headerBottom{
-    background-color: yellow;
+    margin-top: 75px;
     height: 100px;
 }
 
 #headerBottomLeft{
     width: 25%;
     height: 100px;
-    background-color: blue;
+    background-color: rgba(70, 0, 0, 0.2);
     float: left;
 }
 
 #headerBottomRight{
     width: 75%;
     height: 100px;
-    background-color: #bf00ff;
+    background-color: rgba(0, 60, 0, 0.2);;
     float: right;
 }
 
@@ -68,7 +72,7 @@ body{
     background-color: pink;
 }
 #jumboContent{
-    background-color: red;
+    background-color: white;
     width: 40%;
     height: 400px;
 }
