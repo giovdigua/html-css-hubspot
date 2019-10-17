@@ -31,30 +31,6 @@ body{
     width: 80%;
     margin: 0 auto;
 }
-#languagegContact{
-    display: inline;
-    height: 75px;
-    line-height: 75px;
-}
-ul .dropMenuItem{line-height: normal;
-}
-li.dropMenuItem ul{
-    display: none;
-    position: absolute;
-
-    background-color: white;
-    border: 1px solid black;
-
-}
-
-
-li.dropMenuItem:hover ul{
-    display: block;
-
-
-}
-
-
 
 #headerTop{
     position: fixed;
@@ -79,7 +55,44 @@ li.dropMenuItem:hover ul{
     width: 50%;
 }
 
+#languagegContact{
+    display: inline;
+    height: 75px;
+    line-height: 75px;
+}
 
+ul.mainItemMenu > li{
+    margin: 0 5px;
+}
+
+ul .dropMenuItem{
+    line-height: normal;
+
+}
+li.dropMenuItem ul{
+    display: none;
+    position: absolute;
+    left: 15px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+
+li.dropMenuItem:hover ul{
+    display: block;
+
+
+}
+
+.fa-globe{
+    margin: 2px 3px;
+    font-size: 20px;
+}
+
+.fa-sort-down{
+    margin: 0 3px;
+}
 
 #headerBottom{
     margin-top: 75px;
