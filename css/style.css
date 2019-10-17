@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+li {
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+
+
+}
+
 .clearfix:after{
     color: "";
     clear: both;
@@ -23,6 +31,30 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+#languagegContact{
+    display: inline;
+    height: 75px;
+    line-height: 75px;
+}
+ul .dropMenuItem{line-height: normal;
+}
+li.dropMenuItem ul{
+    display: none;
+    position: absolute;
+
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+
+li.dropMenuItem:hover ul{
+    display: block;
+
+
+}
+
+
 
 #headerTop{
     position: fixed;
@@ -30,6 +62,7 @@ body{
     width: 100%;
     background-color: #F5F8FA;
     height: 75px;
+
 }
 
 #headerTopLeft{
