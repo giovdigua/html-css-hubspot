@@ -48,6 +48,12 @@ button{
     font-size: 100%;
     font-weight: 400;
 }
+
+.learMoreBtn{
+    padding: 12px 24px;
+    font-size: 90%;
+    font-weight: 400;
+}
 .whiteBtn{
     color: #ff7a59;
 }
@@ -161,7 +167,7 @@ background: linear-gradient(180deg, rgba(194,39,39,0.4164040616246498) 0%, rgba(
     line-height: 500px;
 }
 #jumboText{
- line-height: normal;
+     line-height: normal;
 }
 
 #jumboText h1{
@@ -169,9 +175,10 @@ background: linear-gradient(180deg, rgba(194,39,39,0.4164040616246498) 0%, rgba(
 
 
 }
-#jumboText h1 + p{
-    margin: 25px 0;
+p{
+    margin: 20px 0;
     padding-right: 15px;
+    line-height: 150%;
 }
 
 #jumboText button{
@@ -216,8 +223,71 @@ background: linear-gradient(180deg, rgba(194,39,39,0.4164040616246498) 0%, rgba(
     font-size: 105%;
 }
 
+.mainFocus{
+    position: absolute;
+    padding: 30px;
+    border:1px solid #F0F4F8;
+    box-shadow: 0 0 11px #eaf0f6;
+    text-align: center;
 
+}
 
+.mainFocus:hover{
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transform: scale(1.014);
+    cursor: pointer;
+}
+
+.mainFocusImg{
+    height: 150px;
+}
+
+.mainFocusButtonContainer{
+    padding: 20px 0 0 0;
+}
+
+.mainFocusTextContainer{
+    text-align: left;
+    padding-top: 20px;
+}
+
+#crmLeftt{
+    float: left;
+    width: 40%;
+}
+
+#crmRight{
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+}
+.popularFeatures p{
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 400;
+}
+.popularFeatures p::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 15px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 4px;
+    width: 60%;
+}
+.popularFeatures ul li{
+    padding-right: 15px;
+    font-weight: 400;
+}
+.popularFeatures ul li::before{
+    content: '';
+    background: url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
 
 /*  */
 #learnGrowSection{
