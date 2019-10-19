@@ -25,9 +25,11 @@ body{
     font-weight: 300;
 }
 .container {
-    width: 80%;
+    width: 77%;
     margin: 0 auto;
 }
+
+
 button{
     font-weight: 300;
     padding: 10px 18px;
@@ -66,7 +68,7 @@ button{
     height: 75px;
     border-bottom: 1px solid #CBD6E1;
     z-index: 20;
-
+    wi
 }
 
 #headerTopLeft{
@@ -195,8 +197,14 @@ p{
 
 /* Inizio main Focus Section */
 #mainFocusSection{
-    height: 2000px;
+    padding: 100px 0;
     background-color: #F5F8FA;
+    height:1650px;
+}
+
+#mainFocusContainer{
+    width: 67%;
+    margin: 0 auto;
 }
 
 #topCentralMainText{
@@ -220,7 +228,7 @@ p{
 
 #topCentralMainText p{
     line-height: 150%;
-    font-size: 105%;
+
 }
 
 .mainFocus{
@@ -230,6 +238,8 @@ p{
     box-shadow: 0 0 11px #eaf0f6;
     text-align: center;
     margin-bottom: 40px;
+    font-size: 14px;
+    background-color: #ffffff;
 
 }
 
@@ -269,19 +279,26 @@ p{
     position: relative;
     font-weight: 400;
 }
-.popularFeatures p::after {
+.popularFeatures p#mainPopularFeatures:after{
     content: '';
     position: absolute;
     height: 5px;
     margin-left: 15px;
     border-bottom: 1px solid #e0e6ed;
     top: 4px;
-    width: 60%;
+    width: 64%;
 }
+
 .popularFeatures ul li{
     padding-right: 15px;
     font-weight: 400;
 }
+
+.generalCard .popularFeatures ul li{
+    display: block;
+    padding: 10px 0;
+}
+
 .popularFeatures ul li::before{
     content: '';
     background: url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg) no-repeat;
@@ -292,9 +309,10 @@ p{
     margin-right: 10px;
 }
 
-#threeCardSection{
-
+.generalCard h3 {
+    text-align: center;
 }
+
 .generalCard{
     min-height: 600px;
     float: left;
@@ -305,11 +323,103 @@ p{
     margin-left: 3.2%;
     margin-right: 3.2%;
 }
-/*  */
-#learnGrowSection{
-    height: 850px;
-    background-color: MediumSpringGreen;
+
+.popularFeaturesCard{
+    text-align: center;
+    margin-top:25px;
+    padding-top: 25px;
+    border-top: 1px solid #e0e6ed;
 }
+/* fine main focus section */
+/* Inizio learn and grow section */
+#learnGrowSection{
+    padding: 130px 0;
+    height: 900px;
+    background: rgb(0,168,186);
+background: linear-gradient(90deg, rgba(0,168,186,1) 0%, rgba(1,183,171,1) 100%);
+}
+
+#learnGrowText{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+#learnGrowText h2{
+    font-size: 33px;
+    font-weight: 600;
+}
+#learnGrowGrid{
+    margin-top: 85px;
+}
+.gridTile{
+    width: 270px;
+    height: 185px;
+    position: relative;
+    float: left;
+    padding: 30px;
+
+}
+.gridTileIconContainer{
+    position: relative;
+    height: 45px;
+}
+.gridTileIcon{
+    position:absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.gridTileTextContainer{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.gridTileTextContainer h3{
+    font-size: 36px;
+    letter-spacing: 2px;
+
+}
+.gridTileTextContainer p{
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.plus{
+    display: inline-block;
+    font-weight: 200;
+    vertical-align:middle;
+    padding: 3px;
+    padding-bottom: 10px;
+    font-size: 16px;
+
+}
+
+
+.gridTileBorderRightBottom{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.gridTileBorderBottom{
+
+    border-bottom: 1px solid white;
+}
+
+.gridTileBorderRight{
+
+    border-right: 1px solid white;
+}
+/* End learn and grow section */
+
+
 
 #starGrowing{
     height: 850px;
